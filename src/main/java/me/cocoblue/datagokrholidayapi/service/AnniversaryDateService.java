@@ -94,13 +94,4 @@ public class AnniversaryDateService {
             return null;
         }
     }
-
-    /**
-     * 현재 연도와 월에 대한 API에서 휴일 정보를 검색
-     *
-     * @return 휴일 정보를 포함하는 응답 엔티티
-     */
-    public ResponseEntity<HolidayApiResponseVo> getHolidayFromApiCurrentMonth() {
-        return getHolidayFromApi(null, null);
-    }
 }
