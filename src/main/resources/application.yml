@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: data-go-kr-holiday-api
+
+application:
+  holiday-api:
+    key: "<INPUT YOUR DECODED API KEY>"
